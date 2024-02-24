@@ -14,14 +14,14 @@ def main():
 
     for i in range(NUMBER_OF_PLAYS):
         OPERATIONS = ("+", "-", "*")
-        
+
         question_number_1 = random.randint(1, 100)
         question_number_2 = random.randint(1, 100)
         question_operation = random.choice(OPERATIONS)
         right_answer = eval(f"{question_number_1}{question_operation}{question_number_2}")
-        
+
         print(f"Question: {question_number_1} {question_operation} {question_number_2}")
-        
+
         player_answer = prompt.string("Your answer: ")
 
         if player_answer == str(right_answer):
