@@ -20,7 +20,8 @@ def play_game(game_message, get_question_and_answer):
         if player_answer == game_answer:
             print("Correct!")
         else:
-            print(f"'{player_answer}' is wrong answer ;(. Correct answer was '{game_answer}'.")
+            print(f"'{player_answer}' is wrong answer ;(. \
+                Correct answer was '{game_answer}'.")
             print(f"Let's try again, {player_name}!")
             return
 
