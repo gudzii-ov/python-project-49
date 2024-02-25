@@ -25,11 +25,11 @@ def get_question_and_answer():
     hidden_number = progression[hidden_number_index]
 
     progression[hidden_number_index] = ".."
-    
+
     converted_progression = map(str, progression)
-    
+
     game_question = " ".join(converted_progression)
-    
+
     right_answer = str(hidden_number)
 
     return (game_question, right_answer)
