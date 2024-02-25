@@ -2,7 +2,7 @@ import random
 import brain_games.game_engine
 
 
-game_message = "Find the greatest common divisor of given numbers."
+message = "Find the greatest common divisor of given numbers."
 
 
 def get_gcd(number1, number2):
@@ -19,5 +19,5 @@ def get_question_and_answer():
 
 
 def play_brain_gcd():
-    brain_games.game_engine.play_game(game_message, get_question_and_answer)
+    brain_games.game_engine.play_game(message, get_question_and_answer)
     return

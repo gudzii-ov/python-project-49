@@ -3,7 +3,7 @@ import math
 import brain_games.game_engine
 
 
-game_message = "Answer \"yes\" if given number is prime. Otherwise answer \"no\"."
+message = "Answer \"yes\" if given number is prime. Otherwise answer \"no\"."
 
 
 def is_prime(number):
@@ -29,5 +29,5 @@ def get_question_and_answer():
 
 
 def play_brain_prime():
-    brain_games.game_engine.play_game(game_message, get_question_and_answer)
+    brain_games.game_engine.play_game(message, get_question_and_answer)
     return

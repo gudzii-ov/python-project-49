@@ -2,7 +2,7 @@ import random
 import brain_games.game_engine
 
 
-game_message = "What number is missing in the progression?"
+message = "What number is missing in the progression?"
 
 
 def generate_progression(length):
@@ -36,5 +36,5 @@ def get_question_and_answer():
 
 
 def play_brain_progression():
-    brain_games.game_engine.play_game(game_message, get_question_and_answer)
+    brain_games.game_engine.play_game(message, get_question_and_answer)
     return

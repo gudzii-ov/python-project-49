@@ -2,7 +2,7 @@ import random
 import brain_games.game_engine
 
 
-game_message = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
+message = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
 
 
 def get_question_and_answer():
@@ -13,5 +13,5 @@ def get_question_and_answer():
 
 
 def play_brain_even():
-    brain_games.game_engine.play_game(game_message, get_question_and_answer)
+    brain_games.game_engine.play_game(message, get_question_and_answer)
     return
